@@ -1,0 +1,29 @@
+Ödvözlet!
+
+Ezúton küldöm a kiírt házi feladatot, remélem a megoldásaim elnyerik tetszésüket/tetszéseteket
+
+A layout/CSS részhez szeretnék egy-két megjegyzést írni: 
+
+- A HTML-t annyiban kellet módosítanom  hogy a fejlécben elhelyeztem a böngészők hibátlan működéséhez szükséges meta-adatokat.
+    Magához a body-hoz nem nyúltam. 
+
+- A feladat leírásában az szerepel, hogy a mobil- és a desktop nézetben különböznek a betűméretek,
+ azonban a küldött képeken nem láttam a különbséget, így azt nem írtam bele a media query-be. 
+
+- A leírásban nem szerepelt, de feltételeztem, hogy mobil nézetben a csoportok (a zöld alapszínű menü)
+görgethetőek, csak el van rejtve a scrollbar, így ezt a változatot programoztam le. 
+
+- A layout tesztelve lett firefox-on, chrome-on, edge-en. 
+
+- A scrollbar-ok testre szabása különböző böngészőkben más megoldást kívánt: 
+		
+		- Chrome-on és Edge-en a -webkit-scrollbar-t használtam, ezen böngészőknél a scrollbar-color és scrollbar-width nem támogatott
+		- Firefox-ban viszont a webkit-scrollbar nem támogatott, ott a scrollbar-color-t és scrollbar-width-et használtam.
+				Az elért eredmény hasonló, bár nem tökéletesen ugyanaz, mint a webkittel. 
+
+
+Köszönöm, hogy elolvasták/elolvastátok levelem, bízva a pozitív elbírálásban : 
+
+tisztelettel: 
+
+Viszlói Attila
