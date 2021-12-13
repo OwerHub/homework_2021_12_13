@@ -22,9 +22,6 @@ const reorder = (type, reverse) => {
     let c = getTextContent(a);
     let d = getTextContent(b);
 
-    // null értéket tudja kezelni
-    // split-ig ellenőrizze
-    // string helyett text.
     const stringToPrice = (string) => {
       return parseInt(string.replace(/\./g, "").split(" ")[0]);
     };
